@@ -121,3 +121,8 @@
 停止后不再产生该环境的计算用量，但保存环境仍会占用存储额度。只打算暂时离开时选择停止，长期不用时可在确认所需内容已推送或备份后再决定是否删除。
 
 操作说明见 [GitHub：停止和启动 Codespace](https://docs.github.com/zh/codespaces/developing-in-a-codespace/stopping-and-starting-a-codespace)。
+
+
+## 重新打开前的检查
+
+再次进入 Codespace 后，先确认当前分支和工作区状态，再继续编辑。若之前有未提交修改，先查看差异并保存；完成后按原流程提交和推送，避免把不同任务的文件混在一起。
